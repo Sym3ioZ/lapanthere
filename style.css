@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;  /* Sized up texts in "p", 11px was too small, especially for accessibility requirements */
 }
 
 .tight-width-whitespace {
