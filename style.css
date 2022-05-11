@@ -39,6 +39,32 @@ a:hover {
     position: relative;
 }
 
+#contact{
+    border-top: #F3976C 10px solid;
+}
+
+.contact-title{
+    font-size: xx-large;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #000000;
+}
+
+.prez-title{                          /* changes for contrasts requirements */
+    font-size: large;
+    color: #F3976C!important;
+    text-align: center;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -53,7 +79,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 50px 50px;
 }
 
 .bg-center,
@@ -506,8 +532,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+    border: #F3976C solid 2px;
 }
 
 .scrollToTop {
@@ -739,6 +764,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: black!important;
+}              /* added black color for some texts, in order to respect contrats for WCAG */
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -748,12 +777,15 @@ h4 {
     margin-top: 50px;
 }
 
+.input{
+    outline: #000000 solid 3px;
+}
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,7 +803,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976c;
 }
 
 .tc-white {
@@ -780,7 +812,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
