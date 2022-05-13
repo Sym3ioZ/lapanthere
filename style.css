@@ -733,6 +733,14 @@ p {
     margin: auto auto auto auto;
 }
 
+@media (max-width: 768px) {
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -773,7 +781,7 @@ h4 {
 }              /* added black color for some texts, in order to respect contrats for WCAG */
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: 0 auto 24px;
 }
 
 .portfolio-row {
