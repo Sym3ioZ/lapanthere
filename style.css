@@ -784,6 +784,9 @@ h4 {
     margin: 0 auto 24px;
 }
 
+#main-title{
+    background: rgba(0, 0, 0, 0.66);
+}
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -797,7 +800,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.66);
     padding: 40px 40px 40px 40px;
 }
 
