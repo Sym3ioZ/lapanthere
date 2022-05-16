@@ -5,8 +5,8 @@
 
 site web de l'agence La Panthère:
 
-rapport de performances (SEO, perf, accessibilité)
-optimisation du site suivant ce rapport
+rapport de performances (SEO, perf, accessibilité), 
+optimisation du site suivant ce rapport, 
 rapport comparatif
 
 Modifs effectuées principalement en HTML et CSS.
